@@ -1,0 +1,37 @@
+00_영상데이터기본이해(픽셀, 색상, 채널, 해상도)
+01_이미지데이터의이해
+02_파이썬이미지라이브러리리
+
+01.기본 입출력
+11_윈도우&이벤트 관리 : cv2.namedWindow(),  cv2.moveWindow(), cv2.resizeWindow(), cv2.destroyWindow(), cv2.destroyAllwindows(), cv2.waitKey()
+12_이미지 입출력 : cv2.imread(), cv2.imshow() , cv2.imwrite()
+13_동영상 입출력 : cv2.VideoCapture(), etc
+14_도형그리기 : cv2.line(), cv2.circle(), cv2.rectangle(), cv2.polylines()
+15_텍스트 : cv2.putText()
+
+02.영상처리기초
+21_관심 영역 (ROI: Region of Interest)
+22_색공간 변환: cv2.cvtColor() (RGB ↔ Grayscale ↔ HSV)
+23_이미지 연산: cv2.add(), cv2.subtract() 등
+24_임계처리 (Thresholding): cv2.threshold(), cv2.adaptiveThreshold()
+25_히스토그램 분석: cv2.calcHist(), cv2.equalizeHist() 등
+26_히스토그램 평활화 및 대비 조정 
+
+03. 기하학적 변환 (Geometric Transformations)
+31_크기 조정 (resize)
+32_이미지 자르기 (crop)
+33_대칭 변환 (flip)
+34_회전 (rotate)
+35_이동, 확대/축소, 어파인 변환
+36_원근 변환 (Perspective Transform)
+
+04. 영상 필터링 및 이미지 향상
+41_블러링 (GaussianBlur, MedianBlur 등)
+42_샤프닝 (커널 기반 필터)
+43_에지 검출: Canny Edge Detection
+44_컨투어 검출 및 외곽선 그리기: cv2.findContours(), cv2.drawContours()
+
+05. 특징 추출 및 고급 처리
+51_SIFT
+52_HUG
+53_Haar
